@@ -245,7 +245,6 @@ header p span {
 .gallery-section .carousel-indicators .active { background-color: var(--royal-blue); }
 
 /* Faculty Advisor Section */
-/* Faculty Advisor Section */
 .faculty-box {
   display: flex;
   flex-direction: row;
