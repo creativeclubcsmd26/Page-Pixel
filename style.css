@@ -215,6 +215,35 @@ header p span {
 @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
 
 
+/* Poster section container */
+#posters .container {
+  background-color: #fffdf8; /* slightly lighter beige */
+  border-radius: 12px;
+  padding: 40px 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  border-top: 5px solid var(--royal-blue);
+  margin-bottom: 60px;
+
+}
+
+/* Section title */
+#posters .section-title {
+  color: var(--charcoal);
+  font-weight: 700;
+}
+
+/* Poster images */
+.poster-img {
+  max-height: 450px;
+  object-fit: contain;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.poster-img:hover {
+  transform: scale(1.03);
+}
+
 /*       GALLERY SECTION   */
 
 .gallery-section {
